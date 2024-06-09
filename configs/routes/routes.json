@@ -6,6 +6,18 @@
       "name": {
         "type": "string"
       }
+    },
+    "response": {
+      "type": "object",
+      "params": {
+        "channels": {
+          "type": "array",
+          "ref": {
+            "type": "int64",
+            "required": true
+          }
+        }
+      }
     }
   }
 ]
