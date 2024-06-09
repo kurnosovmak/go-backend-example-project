@@ -1,6 +1,11 @@
 [
   {
     "method": "example.example",
-    "controller": "example.example"
+    "controller": "example.example",
+    "params": {
+      "name": {
+        "type": "string"
+      }
+    }
   }
 ]
